@@ -100,7 +100,7 @@ const Formulaire = ({ onSubmit }) => {
           );
           break;
       }
-      setCountries(countriesData);
+      setCountries(countriesData.sort());
       setLoadingCountries(false);
     };
 
